@@ -241,6 +241,20 @@ Home sections
 	background: #181818;
 }
 
+.bg-middledark{
+	background: #232323;
+}
+
+.bg-dark .heading-line,
+.bg-middledark .heading-line{
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #f8f8f8;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
 
 /* --- section content general color --- */
 
@@ -269,6 +283,7 @@ Download
 }
 
 #download ul{
+	display: block;
 	list-style-type: none;
   margin: 0;
   padding: 0;
@@ -289,6 +304,50 @@ Download
   color: #fff;
   text-decoration: none;
 }
+
+/* ==========================
+Guide
+============================= */
+
+#guide{
+	color: #fff;
+	background: url('../img/screenshot1.jpg') no-repeat center center;
+	background-size: cover;
+	border-top: 1px solid #0081c2;
+}
+
+#guide h2{
+	color: #fff
+}
+
+#guide .col-md-6{
+	text-align: left
+}
+
+#guide .btn {
+	margin:20px 0;
+	display: table;
+  color: #fff;  
+  border: 2px solid #fff;
+}
+
+#guide .btn:hover {
+	border-color: #0081c2;
+  background: #0081c2;
+  color: #fff;
+  text-decoration: none;
+}
+
+#guide i{
+	font-size:30px;
+	padding-right:10px
+}
+
+#guide i, #guide span{
+	display: table-cell;
+	vertical-align: middle
+}
+
 
 /* ================================
 Intro
@@ -330,20 +389,20 @@ Intro
   text-decoration: none;
 }
 
-#description .description-img {
+.description-img {
   overflow: hidden;
 }
 
-#description .description-img img {
+.description-img img {
 	margin-left: -15px;
   max-width: 100%;
 }
 
 @media (max-width: 768px) {
-  #description .description-img {
+  .description-img {
     height: auto;
   }
-  #description .description-img img {
+  .description-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
