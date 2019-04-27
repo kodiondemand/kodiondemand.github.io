@@ -1,50 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Kodi on Demand</title>
-    <style type="text/css">
-        body{
-            color: white
-        }
-        button{
-            background-position:left center;
-            background-repeat:no-repeat;
-            color: white;
-            background-color: #0366d6;
-            border-color: #0366d6;
-            border-radius: 8px;
-            height: 40px;
-            text-indent: 32px;
-            font-size: x-large
-        }
-        .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          text-align: center;
-        }
-    </style>
+  <title>Kodi on Demand - Official Site</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
-<body bgcolor="black">
-    <center><img src="fanart.jpg" width="20%" height="20%"></center>
-    <p style="text-align:center;"><b>Kodi on Demand è un addon di Kodi per cercare e guardare contenuti multimediali dal web</b></p>
-    Come installare KoD:
-    <ul>
-        <li>Scarica il repository: <a href="http://7.ly/kodrepo" style="color:white;font-weight:bold">7.ly/kodrepo</a> (se hai un tvbox digita questo link nel browser)</li>
-        <li>Apri Kodi e vai in Addons -> installa da file zip</li>
-        <li>Seleziona il file appena scaricato (repository.kod-1.0) e installalo</li>
-        <li>Recati in "installa da repository" -> "KoD Repo" -> "Addon Video" ed installa l'addon</li>
-        <li>Apri KoD e goditelo!</li>
-    </ul>
-    <center>
-        <a href="https://github.com/kodiondemand/"><button style="background-image: url('githubLogo.png');">Codice sorgente</button></a>
-        <a href="https://t.me/kodiondemand"><button style="background-image: url('telegramLogo.png');">Gruppo Telegram</button></a>
-    </center>
-    <div class="footer">
-        <p style="color:red">The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</p>
-        <p style="color:yellow">Kodi © is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</p>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html"><img src="img/small-logo.png"></a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#description">Descrizione</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#contacts">Contatti</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  
+  <section id="intro" class="bg-dark">
+      <img src="img/big-logo.png">
+      <a href="#description" class="btn scroll animated fadeInUp">Scopri di più</a>
+  </section>
+
+  <section id="description" class="home-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Kodi On Demand</h2>
+            <div class="heading-line"></div>
+            <p>Un fork italiano di <a href="https://github.com/alfa-addon">Alfa</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 description-img">
+          <img src="img/screenshot.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Kodi on Demand è un add-on per Kodi per cercare e guardare contenuti sul web.</h2>
+          <h3>I proprietari di questo add-on non ospitano né distribuiscono nessuno dei contenuti visualizzabili tramite questo add-on né hanno alcuna affiliazione con i fornitori di contenuti.</h3>
+          <p>Kodi © è un marchio registrato di XBMC Foundation. Non siamo collegati o in nessun altro modo affiliati con Kodi, Team Kodi o la Fondazione XBMC. Inoltre, qualsiasi software, addons o prodotti da noi offerti non riceveranno supporto nei canali ufficiali di Kodi, inclusi i forum di Kodi e vari social network.<br>
+            <i>Kodi © is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="home-section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Come installare Kodi on Demand</h2>
+          <ul>
+            <li>Scarica il repository: <a href="http://7.ly/kodrepo">7.ly/kodrepo</a> (se hai un tvbox digita questo link nel browser)</li>
+            <li>Apri Kodi e vai in Addons -> installa da file zip</li>
+            <li>Seleziona il file appena scaricato (repository.kod-1.0) e installalo</li>
+            <li>Recati in "installa da repository" -> "KoD Repo" -> "Addon Video" ed installa l'addon</li>
+            <li>Apri KoD e goditelo!</li>
+          </ul>
+          <a href="http://7.ly/kodrepo" class="btn animated fadeInUp" target=”_blank”>Scarica la Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Resta in contatto</h2>
+            <div class="heading-line"></div>
+            <p>per seguire gli sviluppi di Kodi on Demand, per assistenza o per collaborare, seguici su:</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <a href="https://t.me/kodiondemand" class="btn" target=”_blank”><i class="fa fa-telegram"></i><span>Telegram</span></a>
+      </div>
+
+      <div class="col-md-6">
+        <a href="https://github.com/kodiondemand/" class="btn" target=”_blank”><i class="fa fa-github"></i><span>GitHub</span></a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Alstar
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/custom.js"></script>
 </body>
+
 </html>
