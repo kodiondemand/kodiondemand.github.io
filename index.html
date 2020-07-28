@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kodi on Demand - Official Site</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html"><img src="img/small-logo.png"></a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#description">Descrizione</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#news">Novità</a></li>
+          <li><a href="#contacts">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="intro" class="bg-dark">
+      <img src="img/big-logo.png">
+      <a href="#description" class="btn scroll animated fadeInUp">Scopri di più</a>
+  </section>
+
+  <section id="description" class="home-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Kodi On Demand</h2>
+            <div class="heading-line"></div>
+            <p>Un fork italiano di <a href="https://github.com/alfa-addon">Alfa</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 description-img">
+          <img src="img/screenshot.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Kodi on Demand è un add-on per Kodi per cercare e guardare contenuti sul web.</h2>
+          <h3>I proprietari di questo add-on non ospitano né distribuiscono nessuno dei contenuti visualizzabili tramite questo add-on né hanno alcuna affiliazione con i fornitori di contenuti.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="home-section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Come installare Kodi on Demand (via installer)</h2>
+          <div class="heading-line"></div>
+          <ul>
+            <li>Aggiungi alle sorgenti file di Kodi il seguente URL: <a href="#">https://kodiondemand.github.io/repo/</a> con il nome "kod repo"</li>
+            <li>Apri Kodi e vai in Addons -> installa da file zip -> kod repo</li>
+            <li>Seleziona KoD-installer.zip e installalo</li>
+            <li>Ti uscirà la schermata di configurazione iniziale, se così non fosse vai in Addons e apri Kodi on Demand</li>
+            <li>Ora puoi goderti KoD!</li>
+          </ul>
+          <video width="100%" height="auto" style="max-width:640px; padding: 30px 0" controls>
+              <source src="guide/kodInstall.mp4" type="video/mp4">
+            </video>
+
+          <h2>Metodo diretto (via zip)</h2>
+          <div class="heading-line"></div>
+          <ul>
+            <li>Scarica il file zip: <a href="https://kodiondemand.github.io/repo/KoD-installer.zip">cliccando qui</a></li>
+            <li>Apri Kodi e vai in Addons -> installa da file zip</li>
+            <li>Seleziona il file appena scaricato (KoD-installer) e installalo</li>
+            <li>Ti uscirà la schermata di configurazione iniziale, se così non fosse vai in Addons e apri Kodi on Demand</li>
+            <li>Ora puoi goderti KoD!</li>
+          </ul>
+          
+           <a href="https://kodiondemand.github.io/repo/KoD-installer.zip" class="btn animated fadeInUp" target=”_blank”>Scarica lo zip</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="home-section bg-grey">
+    <div class="container">
+      <div class="row wow fadeInUp">
+        <div class="col-md-4 content">
+          <h2>Novità</h2>
+          <div>Sul nostro canale telegram trovate la lista completa delle versioni ed il changelog.
+            I fix rapidi e il relativo hash (il numerino in Aiuto) li trovate <a href="https://github.com/kodiondemand/addon/commits/stable">qui</a></div>
+        </div>
+        <div class="col-md-8 content">
+          <iframe style="border:0px;height:700px;width:80%;margin:5px;box-shadow: 0 0 16px 3px rgba(0,0,0,.2);" src="https://xn--r1a.website/s/KoDcanale"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--  <section id="guide" class="home-section bg-middledark">-->
+<!--    <div class="container">-->
+<!--      <div class="row wow fadeInUp">-->
+<!--        <div class="col-md-6 content">-->
+<!--          <h2>Guida galattica per scapisti</h2>-->
+<!--          <p>Per chi vuole cominciare a scrivere un canale per KoD</p>-->
+<!--        </div>-->
+<!--        <div class="col-md-6 content">-->
+<!--          <p>Questo è il primo capitolo della nostra guida che, per quanto basilare, richiede una minima conoscenza di python</p>-->
+<!--          <a href="https://is.gd/guida_cap1_rev1" class="btn animated fadeInUp" target=”_blank”><i class="fa fa-arrow-circle-o-down"></i><span>Capitolo 1</span></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <br>-->
+<!--      <div class="row wow fadeInUp">-->
+<!--        <div class="col-md-6 content">-->
+<!--          <h2>Guida community</h2>-->
+<!--          <p>Crea e utilizza canali fatti da e per la Community</p>-->
+<!--        </div>-->
+<!--        <div class="col-md-6 content">-->
+<!--          <p>Si è sognato di creare dei canali propri, inserendo del materiale per condividerlo con altri? Con KoD è possibile</p>-->
+<!--          <a href="http://l.ly/kodcomm" class="btn animated fadeInUp" target=”_blank”><i class="fa fa-arrow-circle-o-down"></i><span>Community</span></a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+
+  <section id="contacts" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Resta in contatto</h2>
+            <div class="heading-line"></div>
+            <p>per seguire gli sviluppi di Kodi on Demand, per assistenza o per collaborare, seguici su:</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <a href="https://t.me/kodiondemand" class="btn" target=”_blank”><i class="fa fa-telegram"></i><span>Telegram</span></a>
+      </div>
+
+      <div class="col-md-6">
+        <a href="https://github.com/kodiondemand/" class="btn" target=”_blank”><i class="fa fa-github"></i><span>GitHub</span></a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <p>Kodi © è un marchio registrato di XBMC Foundation. Non siamo collegati o in nessun altro modo affiliati con Kodi, Team Kodi o la Fondazione XBMC. Inoltre, qualsiasi software, addons o prodotti da noi offerti non riceveranno supporto nei canali ufficiali di Kodi, inclusi i forum di Kodi e vari social network.</p>
+        </div>
+        <div class="col-md-6">
+            <i>Kodi © is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</i>
+        </div>
+        <div class="col-md-12">
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Alstar
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
